@@ -33,7 +33,7 @@ class CallbackMatcherTest extends PHPUnit_Framework_TestCase
     {
         assertThat(
             new TestObject(),
-            matchesUsing(function(TestObject $object) {
+                matchesUsing(function(TestObject $object) {
                 return $object->isTestObject() === true;
             })
         );
