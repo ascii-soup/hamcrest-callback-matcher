@@ -1,0 +1,25 @@
+{
+  "name": "ascii-soup/hamcrest-callback-matcher",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nils Luxton",
+      "email": "nils.luxton@gmail.com"
+    }
+  ],
+  "description": "Hamcrest matcher that matches against a provided callback.",
+  "require": {
+    "hamcrest/hamcrest-php": "2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AsciiSoup\\Hamcrest\\": "src/"
+    },
+    "files": [
+      "src/wrapper.php"
+    ]
+  }
+}
