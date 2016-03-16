@@ -9,7 +9,7 @@
   ],
   "description": "Hamcrest matcher that matches against a provided callback.",
   "require": {
-    "hamcrest/hamcrest-php": "2.*"
+    "hamcrest/hamcrest-php": "1.2.*|2.*"
   },
   "require-dev": {
     "phpunit/phpunit": "5.2.*"
